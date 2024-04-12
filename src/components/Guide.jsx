@@ -4,7 +4,7 @@ const Guide = () => {
     return (
         <section className="flexCenter flex-col">
             <div className="padding-container max-container mx-[40px]  pb-24">
-                <img src="src/assets/camp.svg" alt="camp" width={50} height={50} />
+                <img src="/assets/camp.svg" alt="camp" width={50} height={50} />
                 <p className=" -mt-1 mb-3 text-green-500">
                     We are here for you
                 </p>
@@ -16,7 +16,7 @@ const Guide = () => {
 
             <div className="flexCenter max-container relative w-full">
                 <img
-                    src="src/assets/boat.png"
+                    src="/assets/boat.png"
                     alt="boat"
                     width={1440}
                     height={580}
@@ -25,7 +25,7 @@ const Guide = () => {
 
                 <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
                     <img
-                        src="src/assets/meter.svg"
+                        src="/assets/meter.svg"
                         alt="meter"
                         width={16}
                         height={158}

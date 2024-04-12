@@ -4,11 +4,11 @@ import { FEATURES } from '.';
 const Feature = () => {
     return (
         <section className="flex-col flex-center overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24"
-            style={{ backgroundImage: "url('src/assets/feature-bg.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+            style={{ backgroundImage: "url('/assets/feature-bg.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
             <div className="max-container padding-container relative w-full flex justify-end">
                 <div className="flex flex-1 lg:min-h-[900px]">
                     <img
-                        src="src/assets/phone.png"
+                        src="/assets/phone.png"
                         alt="phone"
                         width={440}
                         height={1000}
@@ -19,7 +19,7 @@ const Feature = () => {
                 <div className="z-20 flex w-full flex-col lg:w-[60%]">
                     <div className='relative'>
                         <img
-                            src="src/assets/camp.svg"
+                            src="/assets/camp.svg"
                             alt="camp"
                             width={50}
                             height={50}
