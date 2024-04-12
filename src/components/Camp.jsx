@@ -6,15 +6,15 @@ const Camp = () => {
         <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
             <div className="flex flex-col lg:flex-row w-full gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
                 {[
-                    { title: 'Putuk Truno Camp', subtitle: 'Prigen, Pasuruan', backgroundImage: '//assets/img-1.png' },
-                    { title: 'Mountain View Camp', subtitle: 'Somewhere in the Wilderness', backgroundImage: '//assets/img-2.png' },
+                    { title: 'Putuk Truno Camp', subtitle: 'Prigen, Pasuruan', backgroundImage: '/assets/img-1.png' },
+                    { title: 'Mountain View Camp', subtitle: 'Somewhere in the Wilderness', backgroundImage: '/assets/img-2.png' },
                 ].map(({ title, subtitle, backgroundImage }, index) => (
                     <div key={index} className='flex-1 h-full min-w-[1100px] bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl' style={{ backgroundImage: `url('${backgroundImage}')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                         <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
                             <div className="flex items-center gap-4">
                                 <div className="rounded-full bg-green-500 p-4">
                                     <img
-                                        src="//assets/folded-map.svg"
+                                        src="/assets/folded-map.svg"
                                         alt="map"
                                         width={28}
                                         height={28}
@@ -53,7 +53,7 @@ const Camp = () => {
                         Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
                     </p>
                     <img
-                        src="//assets/quote.svg"
+                        src="/assets/quote.svg"
                         alt="camp-2"
                         width={186}
                         height={219}
